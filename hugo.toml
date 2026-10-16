@@ -1,8 +1,36 @@
 baseURL = 'https://user-hudonglin.github.io/'
-languageCode = 'zh-cn'
-title = '硬件基础知识'
-theme = 'PaperMod'
+locale = 'zh-cn'
+title = '硬件与软件设计知识库'
+theme = 'relearn'
 
 [params]
+  description = '个人硬件/软件设计经验沉淀'
   author = 'User-Hudonglin'
-  description = '我的硬件知识库'
+  
+[params.search]
+  provider = 'lunr'
+
+[[menu.main]]
+  name = "PCB 设计"
+  url = "/pcb/"
+  weight = 1
+
+[[menu.main]]
+  name = "器件选型"
+  url = "/components/"
+  weight = 2
+
+[[menu.main]]
+  name = "通信协议"
+  url = "/protocols/"
+  weight = 3
+
+[[menu.main]]
+  name = "软件与驱动"
+  url = "/software/"
+  weight = 4
+
+[[menu.main]]
+  name = "调试与整改"
+  url = "/debug/"
+  weight = 5
