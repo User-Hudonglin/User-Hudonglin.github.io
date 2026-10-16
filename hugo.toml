@@ -1,0 +1,57 @@
+baseURL = 'https://User-Hudonglin.github.io/'
+languageCode = 'zh-cn'
+title = '硬件与软件设计知识库'
+theme = 'PaperMod'
+
+# 关键功能开关
+enableRobotsTXT = true
+
+[params]
+  homeInfoParams = { Title = "欢迎", Content = "个人硬件/软件设计经验沉淀，持续更新中。" }
+  defaultTheme = "light"        # 默认亮色
+  ShowReadingTime = true        # 显示阅读时长
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true        # 面包屑导航
+  ShowCodeCopyButtons = true    # 代码块复制按钮
+
+  # 搜索功能（内置）
+  [params.search]
+    enable = true
+    provider = "fuse"           # 本地全文搜索
+
+# 顶栏导航
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "categories"
+  name = "分类"
+  url = "/categories/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 5
+
+# 代码高亮
+[markup.highlight]
+  style = "github-dark"
+  lineNos = true
