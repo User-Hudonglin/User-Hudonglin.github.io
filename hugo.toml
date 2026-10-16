@@ -4,11 +4,8 @@ title = '硬件与软件设计知识库'
 theme = 'relearn'
 
 [params]
-  description = '个人硬件/软件设计经验沉淀'
   author = 'User-Hudonglin'
-  
-[params.search]
-  provider = 'lunr'
+  description = '个人硬件/软件设计经验沉淀'
 
 [[menu.main]]
   name = "PCB 设计"
