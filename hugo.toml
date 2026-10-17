@@ -1,6 +1,6 @@
 baseURL = 'https://user-hudonglin.github.io/'
 locale = 'zh-cn'
-title = '心怀暖阳 向内求己'
+title = '顾森'
 theme = 'relearn'
 
 [params]
